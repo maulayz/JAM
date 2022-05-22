@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.kalender {
+    border: 5px solid;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    margin: 150px auto;
+}
+#date {
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    background: linear-gradient(90deg, rgba(190,188,218,1) 0%, rgba(164,87,218,1) 51%, rgba(0,212,255,1) 100%);
+}
+p {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+}
